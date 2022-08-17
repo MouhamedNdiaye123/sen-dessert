@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fe">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sen Fruit</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="restau.css">
+</head>
+<body>
+    <header class=" sticky-top">
+        <nav class="navbar container-fluid bg-light shadow">
+            <div class=" container d-flex justify-content-between align-items-center py-2">
+                <h2 class="name-site">Sen Dessert</h2>
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="#accueil" class="nav-link">Accueil</a></li>
+                    <li class="nav-item"><a href="#apropos" class="nav-link">A Propos</a></li>
+                    <li class="nav-item"><a href="#categorie" class="nav-link">Categorie</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!--banniere-->
+
+        <section id="accueil">
+            <div class="text-center container-fluid">
+                <h1 class="title">BIENVENUE CHEZ SEN DESSERT</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, sint!</p>
+                <a href="#menu"><button type="button" class="btn btn-success rounded-pill px-3">MENU</button></a>
+            </div>
+        </section>
+
+        <!--apropos-->
+
+        <section id="apropos"  class="container-fluid">
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-md-6 py-3">
+                        <h2>A Propos De Nous</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatibus quas enim quod aut officia ullam dolorum dolorem, numquam velit provident nostrum necessitatibus eligendi, facilis est nobis quis optio ipsa!</p>
+                    </div>
+                    <div class="col-md-12 py-3 text-center">
+                        <img src="./img/fraise.jpg" class="my-2 rounded-circle image" alt="img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--categorie-->
+
+        <section id="categorie">
+            <div class="container my-5">
+                <div class="row">
+                    <h4 class="text-center my-5">NOS  DIVERS DESSERTS</h4>
+                    <div class="col-sm-6 col-md-3 my-2">
+                        <img src="./img/des1.jpg" class="rounded" alt="img">
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 my-2">
+                        <img src="./img/des2.jpg" class="rounded" alt="img">
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 my-2">
+                        <img src="./img/des3.jpg" class="rounded" alt="img">
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 my-2">
+                        <img src="./img/des4.jpg" class="rounded" alt="img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Menu-->
+
+        <section id="menu" class="container-fluid py-3">
+            <div class="container my-5">
+                <div class="row">
+                    <h4 class="text-center my-3">MENU DESSERT</h4>
+                    <div class="col-md-12 my-2 d-flex align-items-center">
+                        <img src="./img/menu1.jpg" class="rounded-pill" alt="img"> 
+                    </div>
+                    <div class="col-md-12 my-2 d-flex align-items-center">
+                        <img src="./img/menu2.jpg" class="rounded-pill" alt="img">
+                    </div>
+                    <div class="col-md-6 my-2 d-flex align-items-center">
+                        <img src="./img/menu3.jpg" class="rounded-pill" alt="img">
+                    </div>
+                    <div class="col-md-12 my-2 d-flex align-items-center">
+                        <img src="./img/menu4.jpg" class="rounded-pill"  alt="img">
+                    </div>
+                    <div class="col-md-12 my-2 d-flex align-items-center">
+                        <img src="./img/menu5.jpg" class="rounded-pill"  alt="img">
+                    </div>
+                    <div class="col-md-12 my-2 d-flex align-items-center">
+                        <img src="./img/menu6.jpg" class="rounded-pill"  alt="img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--contact-->
+        <section >
+            <div class="container my-5">
+                <div id="contact" class="row">
+                    <div class="col-sm-12 col-md-6 my-2">
+                        <img src="./img/femme.jpg" class="w-100 my-2 rounded" alt="img">
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <h4 class="text-center">Nous contactez</h4>
+                        <form class="form-group">
+                            <label for="nom">Nom Complet</label>
+                            <input type="text" name="nom" id="nom" class="form-control">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" class="form-control">
+                            <label for="message">Laissez Nous Un Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10" class="form-control my-2"></textarea>
+                            <button type="button" class="btn btn-success rounded-pill px-3">Envoyer</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--pied de page-->
+    <footer class="container-fluid py-2 text-center">
+        <p>Tout droit reservee &copy; SEN DESSERT</p>
+
+    </footer>
+</body>
+</html>
